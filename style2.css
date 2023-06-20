@@ -1,0 +1,95 @@
+@media screen and (max-width: 1050px){
+    /* .hero-text{
+        color: blue;
+    } */
+
+    .hero{
+        flex-direction: column;
+    }
+
+    .hero-text{
+        text-align: center;
+        margin-bottom: 5rem;
+    }
+
+    .signin{
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 900px){
+    .feature{
+        margin: 3rem 0;
+    }
+}
+
+@media screen and (max-width: 800px){
+    /* .hero-text{
+        color: red;
+    } */
+
+    .navbar{
+        position: fixed;
+        top: 0;
+        right: -100%;
+        background: black;
+        padding: 3rem 5rem 0 3rem;
+        transition: 0.5s ease;
+    }
+
+    .navbar li{
+        display: block;
+        margin-bottom: 2rem;
+    }
+
+    .menu{
+        display: block;
+    }
+    
+    .close{
+        display: block;
+        margin-bottom: 1rem;
+    }
+
+    .feature{
+        flex-direction: column;
+    }
+
+    .feature:nth-child(2n+2){
+        flex-direction: column-reverse;
+    }
+
+    aside details{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 650px){
+    .signin{
+        width: 100%;
+    }
+
+    .hero-text h1{
+        font-size: 50px;
+    }
+
+    .hero-text h4{
+        font-size: 17px;
+    }
+
+    nav{
+        padding: 10px 7%;
+    }
+
+    .feature .text-col h1{
+        font-size: 30px;
+    }
+
+    .feature .text-col p{
+        font-size: 16px;
+    }
+
+    .faq h2{
+        font-size: 30px;
+    }
+}
